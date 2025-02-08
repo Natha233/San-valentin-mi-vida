@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarjeta de San Valentín</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="tarjeta">
+    <div class="contenido">
+      <h1 class="titulo">Mi amor, han pasado años...</h1>
+      <p class="mensaje">
+        Pero sigo enamorada de ti como el primer día, o quizá más. Cada parte de mí te ama y te elige siempre. No importa cuánto tiempo pase, siempre encuentro nuevas razones para admirarte, para querer abrazarte un poco más fuerte y para sentir que no hay lugar mejor que a tu lado.<br><br>
+        No necesito un día especial para recordártelo, pero este 14 de febrero quiero invitarte a salir, a compartir un día solo para nosotras, para reír, mirarnos a los ojos y seguir sumando recuerdos. ¿Qué dices, amor?
+      </p>
+      <div class="opciones">
+        <button id="aceptar" onclick="respuesta('si')">¡Sí, acepto!</button>
+        <button id="rechazar" onclick="respuesta('no')">Lo siento, no puedo</button>
+      </div>
+      <div class="respuesta" id="respuesta"></div>
+      <div class="flores">
+        <img src="flores_azules.png" alt="Flores azules creciendo" class="flores-imagen">
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
